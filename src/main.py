@@ -1,4 +1,4 @@
-print("How many floors should be in your skyscraper?")
+print("How many floors do you want in your skyscraper?")
 
 floors = int(input("Floors (Please enter only an integer): "))
 

@@ -1,4 +1,4 @@
-# Terminal-skyscraper
+# Command line skyscraper
 Using dots to print a skyscaper in the terminal
 
 ## Example of a skyscraper printed in the termnal

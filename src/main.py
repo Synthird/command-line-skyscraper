@@ -1,6 +1,6 @@
 print("How many floors do you want in your skyscraper?")
 
-floors = int(input("Floors (Please enter only an integer): "))
+floors = int(input("Floors (Integers only): "))
 
 for _ in range(3):
     print("   .")

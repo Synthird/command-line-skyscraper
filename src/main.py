@@ -1,9 +1,12 @@
+def print_multiple_times(message, iterations):
+    for _ in range(iterations):
+        print(message)
+
+
 print("How many floors do you want in your skyscraper?")
 
 floors = int(input("Floors (Please enter only an Integer): "))
 
-for _ in range(3):
-    print("   .")
+print_multiple_times("   .", 3)
 
-for _ in range(floors):
-    print(".......")
+print_multiple_times(".......", floors)

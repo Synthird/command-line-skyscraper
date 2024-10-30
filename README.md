@@ -1,7 +1,7 @@
 # Command line skyscraper
-Using dots to print a skyscaper in the command line
+Using dots to print a skyscraper in the command line
 
-## Example of a skyscraper printed in the command line
+## Example of a skyscraper that can be printed in the command line
 ```
    .
    .

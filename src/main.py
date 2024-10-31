@@ -1,11 +1,11 @@
-def ask_question(question, prompt) -> str:
+def ask_question(question: str, prompt: str) -> str:
     print(f"--- {question} ---")
     print("(Please enter only an integer. No decimals or units)")
     answer: int = int(input(f"{prompt}: "))
     return answer
 
 
-def print_multiple_times(message, iterations) -> None:
+def print_multiple_times(message: str, iterations: int) -> None:
     for _ in range(iterations):
         print(message)
 

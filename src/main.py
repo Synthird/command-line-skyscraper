@@ -1,6 +1,6 @@
 def ask_question(question, prompt) -> str:
     print(f"--- {question} ---")
-    print("(Please don't enter decimals or units)")
+    print("(Please enter only an integer. No decimals or units)")
     answer: int = int(input(f"{prompt}: "))
     return answer
 

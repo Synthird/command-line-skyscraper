@@ -1,7 +1,10 @@
 # Command line skyscraper
 Using dots to print a skyscraper in the command line.
 
-## Example of a skyscraper that can be printed in the command line
+## Example of a skyscraper that can be printed
+
+In this example, there are two dots for the rod and seven floors
+
 ```
    .
    .

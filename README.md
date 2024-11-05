@@ -3,7 +3,7 @@ Using dots to print a skyscraper in the command line.
 
 ## Example of a skyscraper that can be printed
 
-This skyscraper has seven floors and a lightning rod that three dots tall
+This skyscraper has seven floors and a lightning rod that is three dots tall.
 
 ```
    .

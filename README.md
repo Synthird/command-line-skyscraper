@@ -1,5 +1,5 @@
 # Command line skyscraper
-Using dots to print a skyscraper in the command line. The height of the rod as well as the building are asked before printing.
+Using dots to print a skyscraper in the command line. The height of the building as well as the rod are asked before printing.
 
 ## Example of a skyscraper that can be printed
 

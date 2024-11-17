@@ -10,11 +10,9 @@ def print_multiple_times(message: str, iterations: int) -> None:
         print(message)
 
 
-# Floors
 floors: int = ask_question(
     "How many floors do you want in your skyscraper?", "Floors")
 
-# Lightning rod
 rod_dots: int = ask_question(
     "How tall do you want your lightning rod to be?", "Number of dots for the rod")
 

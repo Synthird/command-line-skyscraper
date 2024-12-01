@@ -1,8 +1,7 @@
 def ask_question(question: str, prompt: str) -> str:
     print(f"--- {question} ---")
     try:
-        answer: int = int(input(f"{prompt}: "))
-        return answer
+        return int(input(f"{prompt}: "))
     except:
         print("Cannot print a skyscraper!")
         print("Probably because you entered:")

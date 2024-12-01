@@ -2,7 +2,7 @@
 
 Using dots to print a skyscraper in the command line. The height of the building as well as the rod are asked before printing.
 
-## Here's an example
+## Example of a skyscraper that can be printed
 
 This skyscraper contains seven floors and a lightning rod that is three dots tall.
 

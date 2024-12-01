@@ -6,7 +6,7 @@ def ask_question(question: str, prompt: str) -> str:
     except:
         print("Cannot print a skyscraper!")
         print("Probably because you entered:")
-        print("1: Decimals\n2: Letters\n3: Symbols\n4: Spaces between numbers")
+        print("a) Decimals\nb) Letters\nc) Symbols\nd) Spaces between numbers")
         raise SystemExit
 
 

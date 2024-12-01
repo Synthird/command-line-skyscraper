@@ -1,8 +1,13 @@
 def ask_question(question: str, prompt: str) -> str:
     print(f"--- {question} ---")
-    print("(Please enter only an integer. No decimals, letters, or symbols)")
-    answer: int = int(input(f"{prompt}: "))
-    return answer
+    try:
+        answer: int = int(input(f"{prompt}: "))
+        return answer
+    except:
+        print("Cannot print a skyscraper!")
+        print("Probably because you entered:")
+        print("1: Decimals\n2: Letters\n3: Symbols\n4: Spaces between numbers")
+        raise SystemExit
 
 
 def print_multiple_times(message: str, iterations: int) -> None:

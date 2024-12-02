@@ -18,7 +18,7 @@ floors: int = ask_question(
     "How many floors do you want in your skyscraper?", "Floors")
 
 rod_dots: int = ask_question(
-    "How tall do you want your lightning rod to be?", "Number of dots for the rod")
+    "How tall do you want your lightning rod to be?", "# of dots for the rod")
 
 print_multiple_times("   .", rod_dots)
 print_multiple_times(".......", floors)

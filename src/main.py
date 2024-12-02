@@ -1,5 +1,5 @@
 def ask_question(question: str, prompt: str) -> str:
-    print(f"--- {question} ---")
+    print(f"--- {question}? ---")
     try:
         return int(input(f"{prompt}: "))
     except:
@@ -15,10 +15,10 @@ def print_multiple_times(message: str, iterations: int) -> None:
 
 
 floors: int = ask_question(
-    "How many floors do you want in your skyscraper?", "Floors")
+    "How many floors do you want in your skyscraper", "Floors")
 
 rod_dots: int = ask_question(
-    "How tall do you want your lightning rod to be?", "# of dots for the rod")
+    "How tall do you want your lightning rod to be", "# of dots for the rod")
 
 print_multiple_times("   .", rod_dots)
 print_multiple_times(".......", floors)

@@ -1,4 +1,4 @@
-def ask_question(question: str, prompt: str) -> str:
+def ask_question(question: str, prompt: str) -> int:
     print(f"--- {question}? ---")
     try:
         return int(input(f"{prompt}: "))

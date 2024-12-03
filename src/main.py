@@ -1,29 +1,26 @@
-def stop_code() -> None:
-    print("!!! Cannot print a skyscraper! !!!")
-    print("Probably because you entered:")
-    print("a) Decimals")
-    print("b) Letters")
-    print("c) Symbols")
-    print("d) Spaces between numbers")
-    print("e) Negative numbers")
-    print("f) You exited the program")
-    raise SystemExit
-
-
 def ask_question(question: str, prompt: str) -> int:
     print(f"--- {question}? ---")
     try:
-        return int(input(f"{prompt}: "))
+        number: int = int(input(f"{prompt}: "))
+        if number > -1:
+            return number
+        else:
+            raise ValueError
     except:
-        stop_code()
+        print("!!! Cannot print a skyscraper! !!!")
+        print("Probably because you entered:")
+        print("a) Decimals")
+        print("b) Letters")
+        print("c) Symbols")
+        print("d) Spaces between numbers")
+        print("e) Negative numbers")
+        print("f) You exited the program")
+        raise SystemExit
 
 
 def print_multiple_times(message: str, iterations: int) -> None:
-    if iterations < 0:
-        stop_code()
-    else:
-        for _ in range(iterations):
-            print(message)
+    for _ in range(iterations):
+        print(message)
 
 
 floors: int = ask_question(

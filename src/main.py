@@ -2,6 +2,7 @@ def ask_question(question: str, prompt: str) -> int:
     print(f"--- {question}? ---")
     try:
         number: int = int(input(f"{prompt}: "))
+
         if number > -1:
             return number
         else:

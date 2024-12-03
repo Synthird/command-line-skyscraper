@@ -14,7 +14,7 @@ def ask_question(question: str, prompt: str) -> int:
         print("b) Letters")
         print("c) Symbols")
         print("d) Spaces between numbers")
-        print("e) Negative numbers")
+        print("e) A negative number")
         print("f) You exited the program")
         raise SystemExit
 

@@ -3,7 +3,7 @@ def ask_question(question: str, prompt: str) -> int:
     try:
         return int(input(f"{prompt}: "))
     except:
-        print("Cannot print a skyscraper!")
+        print("!!! Cannot print a skyscraper! !!!")
         print("Probably because you entered:")
         print("a) Decimals\nb) Letters\nc) Symbols\nd) Spaces between numbers")
         raise SystemExit

@@ -1,7 +1,7 @@
 def ask_question(question: str, prompt: str) -> int:
     print(f"--- {question}? ---")
     try:
-        number: int = int(input(f"{prompt}: "))
+        number: int = int(input(f"{prompt}: ").replace(" ", ""))
 
         if number > -1:
             return number
@@ -13,9 +13,8 @@ def ask_question(question: str, prompt: str) -> int:
         print("a) Decimals")
         print("b) Letters")
         print("c) Symbols")
-        print("d) Spaces between numbers")
-        print("e) A negative number")
-        print("f) You exited the program")
+        print("d) A negative number")
+        print("e) You exited the program")
         raise SystemExit
 
 

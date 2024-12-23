@@ -22,7 +22,7 @@ def ask_question(question: str, prompt: str) -> int:
 	if number > -1:
 		return number
 	else:
-		raise ValueError
+		exit_with_possible_reasons()
 
 
 def print_multiple_times(message: str, iterations: int) -> None:

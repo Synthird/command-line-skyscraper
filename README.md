@@ -19,6 +19,6 @@ This skyscraper contains seven floors and a lightning rod that is three dots tal
 .......
 ```
 
-# License
+## License
 
 This repository contains the MIT license. You must give credit if you are going to use its source code.

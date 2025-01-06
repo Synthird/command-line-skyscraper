@@ -10,18 +10,11 @@ def exit_with_possible_reasons() -> None:
 
 
 def ask_question(question: str, prompt: str) -> int:
-	number: int = 0
-
 	print(f"--- {question}? ---")
 
 	try:
-		number = int(input(f"{prompt}: ").replace(" ", ""))
+		return int(input(f"{prompt}: ").replace(" ", ""))
 	except:
-		exit_with_possible_reasons()
-
-	if number > -1:
-		return number
-	else:
 		exit_with_possible_reasons()
 
 

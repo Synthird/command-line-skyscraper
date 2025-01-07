@@ -1,14 +1,17 @@
+def exit_with_message(message: str) -> None:
+	print(message)
+	raise SystemExit
+
+
 def ask_question(question: str, prompt: str) -> int:
 	print(f"--- {question}? ---")
 
 	try:
 		return int(input(f"{prompt}: ").replace(" ", ""))
 	except ValueError:
-		print("Please only enter a whole number without any decimals....")
-		raise SystemExit
+		exit_with_message("Please enter a whole number without any decimals....")
 	except KeyboardInterrupt:
-		print("\nYou exited the program!")
-		raise SystemExit
+		exit_with_message("\nYou exited the program!")
 
 
 def print_multiple_times(message: str, iterations: int) -> None:

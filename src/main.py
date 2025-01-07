@@ -3,14 +3,11 @@ def ask_question(question: str, prompt: str) -> int:
 
 	try:
 		return int(input(f"{prompt}: ").replace(" ", ""))
-	except:
-		print("!!! Cannot print dots! !!!")
-		print("Probably because you entered:")
-		print("a) Decimals")
-		print("b) Letters")
-		print("c) Symbols")
-		print("d) A negative number")
-		print("e) You exited the program")
+	except ValueError:
+		print("Please only enter a whole number without any decimals....")
+		raise SystemExit
+	except KeyboardInterrupt:
+		print("\nYou exited the program!")
 		raise SystemExit
 
 

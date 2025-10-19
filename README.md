@@ -19,6 +19,22 @@ This skyscraper contains seven floors and a lightning rod that is three dots tal
 .......
 ```
 
+## Installation
+
+1. You must have [python](https://python.org) installed
+2. Download [main.py](src/main.py)
+3. Run the following command:
+
+```Powershell
+python main.py
+```
+
+If the previous command didn't work, try
+
+```Powershell
+python3 main.py
+```
+
 ## License
 
 This repository contains the MIT license. You must give credit if you are going to use its source code.
